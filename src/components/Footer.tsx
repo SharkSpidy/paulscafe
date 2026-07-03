@@ -4,7 +4,11 @@ export default function Footer() {
   return (
     <footer id="visit" className="relative border-t border-brass/15 bg-espresso-900 px-6 py-16">
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-10 text-center">
-        <BrassSeal className="h-9 w-9 text-brass/60" />
+        <img
+          src="/assets/images/logo.jpg"
+          alt="Paul's Cafe and Burger Joint logo"
+          className="h-16 w-16 rounded-full border border-brass/20 object-cover"
+        />
 
         <div className="grid w-full max-w-3xl grid-cols-1 gap-10 sm:grid-cols-3">
           <div>

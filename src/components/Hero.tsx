@@ -26,12 +26,16 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-0 bg-grain" />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-espresso-950" />
       <div className="pointer-events-none absolute inset-x-0 top-1/2 z-0 mx-auto h-[70vh] max-w-5xl -translate-y-1/2 overflow-hidden rounded-[2rem] border border-brass/10 opacity-20">
-        <img src="/assets/images/IMG1.png" alt="" className="h-full w-full object-cover" />
+        <img src="/assets/images/IMG6.png" alt="" className="h-full w-full object-cover" />
       </div>
 
       <div className="relative z-10 flex flex-col items-center">
-        <div className={`mb-8 text-brass/70 ${stage('delay-100')}`}>
-          <BrassSeal className="mx-auto h-16 w-16" />
+        <div className={`mb-8 ${stage('delay-100')}`}>
+          <img
+            src="/assets/images/logo.jpg"
+            alt="Paul's Cafe and Burger Joint logo"
+            className="mx-auto h-20 w-20 rounded-full border border-brass/30 object-cover shadow-lg shadow-black/20"
+          />
         </div>
 
         <p className={`mb-5 text-xs font-body font-light uppercase tracking-widest2 text-brass/80 ${stage('delay-200')}`}>
