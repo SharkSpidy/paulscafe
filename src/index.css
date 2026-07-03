@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-brass/20;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-espresso-950 text-cream font-body antialiased;
+  }
+  ::selection {
+    @apply bg-brass/30 text-cream;
+  }
+}
+
+@layer utilities {
+  .bg-grain {
+    background-image: theme('backgroundImage.grain');
+  }
+
+  .text-outline-brass {
+    -webkit-text-stroke: 1px theme('colors.brass.DEFAULT');
+  }
+
+  /* Reveal-on-scroll utility (paired with the useReveal hook) */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+}
