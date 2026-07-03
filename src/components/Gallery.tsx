@@ -7,28 +7,28 @@ interface GalleryImage {
 
 const images: GalleryImage[] = [
   {
-    src: 'https://images.unsplash.com/photo-1481391319762-47dff72954d9?auto=format&fit=crop&w=800&q=80',
-    alt: 'Moody interior of Paul\u2019s Cafe with warm low lighting',
+    src: '/assets/images/IMG1.png',
+    alt: 'Warmly lit burger joint interior with a featured dish',
   },
   {
-    src: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=800&q=80',
-    alt: 'Roasted coffee beans in close detail',
+    src: '/assets/images/IMG2.png',
+    alt: 'A stacked signature burger served fresh',
   },
   {
-    src: 'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=800&q=80',
-    alt: 'Freshly baked pastry on a dark plate',
+    src: '/assets/images/IMG3.png',
+    alt: 'A bacon burger with smoky toppings',
   },
   {
-    src: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80',
-    alt: 'Espresso shot pulling into a glass cup',
+    src: '/assets/images/IMG4.png',
+    alt: 'A crispy chicken burger plated with fries',
   },
   {
-    src: 'https://images.unsplash.com/photo-1524350876685-274059332603?auto=format&fit=crop&w=800&q=80',
-    alt: 'Cafe counter and seating in low, ambient light',
+    src: '/assets/images/IMG5.png',
+    alt: 'A latte and coffee setup at the cafe counter',
   },
   {
-    src: 'https://images.unsplash.com/photo-1495214783159-3503fd1b572d?auto=format&fit=crop&w=800&q=80',
-    alt: 'Latte art in a ceramic cup',
+    src: '/assets/images/IMG6.png',
+    alt: 'Loaded fries topped with cheese and sauce',
   },
 ]
 

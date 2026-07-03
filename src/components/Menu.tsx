@@ -11,48 +11,43 @@ interface MenuItem {
 const items: MenuItem[] = [
   {
     lot: 'No. 01',
-    name: 'Estate Single-Origin Pour Over',
+    name: 'Turkish Pumpkin',
     description:
-      'A rotating micro-lot, hand-poured to order. Bright, layered, and left unsweetened to let the origin speak — notes shift with the season\u2019s harvest.',
-    price: '\u20b9320',
-    image:
-      'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80',
+      'A pumpkin dessert in Turkish cuisine.It is made by cooking peeled and cut pumpkin in a syrup made out of water, cinnamon, cardamom, vanilla and bay leaves, essentially candying it. .',
+    price: '₹XXX',
+    image: '/assets/images/IMG2.png',
   },
   {
     lot: 'No. 02',
-    name: 'Brass & Barrel Espresso',
+    name: 'Creamy Chicken With Butter Rice',
     description:
-      'Our house blend, dark-roasted low and slow, pulled through a restored lever machine for a syrupy body and a long, cocoa-toned finish.',
-    price: '\u20b9220',
-    image:
-      'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80',
+      'Crisp bacon, caramelized onions, and smoky BBQ glaze bring a rich finish to every layer of this crowd-pleaser.',
+    price: '₹XXX',
+    image: '/assets/images/IMG3.png',
   },
   {
     lot: 'No. 03',
-    name: 'Cardamom Cortado',
+    name: 'Beef Bourguignon',
     description:
-      'Espresso and warm milk in equal measure, tempered with a whisper of Kerala green cardamom \u2014 a quiet nod to the coast this cafe calls home.',
-    price: '\u20b9280',
-    image:
-      'https://images.unsplash.com/photo-1495214783159-3503fd1b572d?auto=format&fit=crop&w=900&q=80',
+      'Beef bourguignon or bœuf bourguignon, also called beef Burgundy, and bœuf à la Bourguignonne, is a French stew of beef braised in red wine.',
+    price: '₹XXX',
+    image: '/assets/images/IMG4.png',
   },
   {
     lot: 'No. 04',
-    name: 'Burnt-Butter Croissant',
+    name: 'Mango Falooda',
     description:
-      'Laminated in-house across three days, finished with a brush of burnt butter for a shatteringly crisp crust and a deep, nutty crumb.',
-    price: '\u20b9180',
-    image:
-      'https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=80',
+      'Mango falooda is a rich, summery variation of the classic Indian dessert. It layers sweet basil seeds, cornstarch vermicelli (falooda sev), fresh mango pulp, and chilled milk.',
+    price: '₹XXX',
+    image: '/assets/images/IMG5.png',
   },
   {
     lot: 'No. 05',
-    name: 'Dark Chocolate & Sea Salt Tart',
+    name: 'HONEY GARLIC BEAN BEEF',
     description:
-      'A short, buttery shell holding a dense 70% ganache, finished tableside with a pinch of flaked salt to sharpen every note.',
-    price: '\u20b9340',
-    image:
-      'https://images.unsplash.com/photo-1524351199678-941a58a3df50?auto=format&fit=crop&w=900&q=80',
+      'Beans expertly paired with savory beef strips, generously sprinkled with sesame seeds. This dish offers a balanced profile of fresh beans and rich protein.',
+    price: '₹XXX',
+    image: '/assets/images/IMG7.png',
   },
 ]
 

@@ -25,39 +25,44 @@ export default function Hero() {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(198,161,91,0.08),_transparent_60%)]" />
       <div className="pointer-events-none absolute inset-0 bg-grain" />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-espresso-950" />
-
-      <div className={`mb-8 text-brass/70 ${stage('delay-100')}`}>
-        <BrassSeal className="mx-auto h-16 w-16" />
+      <div className="pointer-events-none absolute inset-x-0 top-1/2 z-0 mx-auto h-[70vh] max-w-5xl -translate-y-1/2 overflow-hidden rounded-[2rem] border border-brass/10 opacity-20">
+        <img src="/assets/images/IMG1.png" alt="" className="h-full w-full object-cover" />
       </div>
 
-      <p className={`mb-5 text-xs font-body font-light uppercase tracking-widest2 text-brass/80 ${stage('delay-200')}`}>
-        Kalamassery &middot; Burgers, coffee &amp; late-night comfort
-      </p>
+      <div className="relative z-10 flex flex-col items-center">
+        <div className={`mb-8 text-brass/70 ${stage('delay-100')}`}>
+          <BrassSeal className="mx-auto h-16 w-16" />
+        </div>
 
-      <h1
-        className={`font-display text-6xl font-medium leading-[1.05] text-cream sm:text-7xl md:text-8xl ${stage(
-          'delay-300',
-        )}`}
-      >
-        Paul&rsquo;s Cafe &amp; Burger Joint
-      </h1>
+        <p className={`mb-5 text-xs font-body font-light uppercase tracking-widest2 text-brass/80 ${stage('delay-200')}`}>
+          Kalamassery &middot; Burgers, coffee &amp; late-night comfort
+        </p>
 
-      <p
-        className={`mt-6 max-w-xl font-body text-sm font-light uppercase tracking-[0.25em] text-cream/60 sm:text-base ${stage(
-          'delay-500',
-        )}`}
-      >
-        Smash burgers, slow-brewed coffee, and easygoing evenings on HMT Road
-      </p>
-
-      <div className={`mt-12 ${stage('delay-700')}`}>
-        <a
-          href="#menu"
-          className="group relative inline-flex items-center gap-3 border border-brass/70 px-9 py-4 font-body text-xs font-medium uppercase tracking-widest2 text-brass transition-colors duration-500 hover:bg-brass hover:text-espresso-950"
+        <h1
+          className={`font-display text-6xl font-medium leading-[1.05] text-cream sm:text-7xl md:text-8xl ${stage(
+            'delay-300',
+          )}`}
         >
-          See the Grill &amp; Coffee Menu
-          <span className="transition-transform duration-500 group-hover:translate-x-1">&rarr;</span>
-        </a>
+          Paul&rsquo;s Cafe &amp; Burger Joint
+        </h1>
+
+        <p
+          className={`mt-6 max-w-xl font-body text-sm font-light uppercase tracking-[0.25em] text-cream/60 sm:text-base ${stage(
+            'delay-500',
+          )}`}
+        >
+          Smash burgers, slow-brewed coffee, and easygoing evenings on HMT Road
+        </p>
+
+        <div className={`mt-12 ${stage('delay-700')}`}>
+          <a
+            href="#menu"
+            className="group relative inline-flex items-center gap-3 border border-brass/70 px-9 py-4 font-body text-xs font-medium uppercase tracking-widest2 text-brass transition-colors duration-500 hover:bg-brass hover:text-espresso-950"
+          >
+            See the Grill &amp; Coffee Menu
+            <span className="transition-transform duration-500 group-hover:translate-x-1">&rarr;</span>
+          </a>
+        </div>
       </div>
 
       <div
