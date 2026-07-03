@@ -43,7 +43,7 @@ const items: MenuItem[] = [
   },
   {
     lot: 'No. 05',
-    name: 'HONEY GARLIC BEAN BEEF',
+    name: 'Honey Garlic Bean Beef',
     description:
       'Beans expertly paired with savory beef strips, generously sprinkled with sesame seeds. This dish offers a balanced profile of fresh beans and rich protein.',
     price: '₹XXX',
